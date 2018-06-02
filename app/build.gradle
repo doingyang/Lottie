@@ -30,4 +30,12 @@ dependencies {
     //lottie animation
     implementation 'com.airbnb.android:lottie:2.5.4'
     implementation 'in.srain.cube:ultra-ptr:1.0.11'
+
+    //SmartRefreshLayout
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.4'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.4'//没有使用特殊Header，可以不加这行
+
+    //SmartTabLayout
+    compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
+    compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar'
 }
